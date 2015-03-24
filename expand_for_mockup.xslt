@@ -12,7 +12,7 @@
 	<xsl:variable name="isPartOf" select="dcterms:isPartOf"/>
 	<document>
 		<xsl:choose>
-			<xsl:when test="$isPartOf = (1, 2, 4)">
+			<xsl:when test="$isPartOf = (1, 2, 4)"> <!-- Idiom: matches if any in the sequence $isPartOf matches any in the sequence (1, 2, 4) -->
 				<businessArea>1</businessArea>
 			</xsl:when>
 			<xsl:when test="$isPartOf = (7)">
