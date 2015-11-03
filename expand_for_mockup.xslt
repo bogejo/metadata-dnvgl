@@ -2,8 +2,6 @@
 <xsl:stylesheet version="3.0" xmlns="http://www.dnv.com/rulesandstandards/" xmlns:dnv="http://www.dnv.com/rulesandstandards/"  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:categ-data="http://www.dnv.com/rulesandstandards/categ-data" exclude-result-prefixes="categ-data fn xs">
 	<xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
 
-<!-- Just a null comment -->
-
 <xsl:template match="/">
 	<xsl:apply-templates/>
 </xsl:template>
